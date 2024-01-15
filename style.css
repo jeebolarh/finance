@@ -1,0 +1,360 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background: rgb(200, 192, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.container{
+    background-color: rgb(30, 29, 29);
+    color: rgb(200, 192, 255);
+    height: 100vh;
+    width: 90%;
+    margin-top: 2rem;
+}
+.navbar{
+    display: flex;
+    padding: auto;
+    margin: 1rem;
+    justify-content: space-between;
+
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+.navbar .buttons button{
+    display: inline-block;
+    background-color:rgb(200, 192, 255) ;
+    border: none;
+    padding: 6px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    width: 85px;
+    border-radius: 5px;
+}
+.log{
+    margin-left: 7rem;
+    font-size: larger;
+    font-weight: 600;
+}
+.buttons{
+    margin-right: 2rem;
+}
+.buttons button{
+    transition: border  ease-in 0.5;
+}
+.showcase{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.phonedisplay{
+    background-color: rgb(34, 50, 72);
+    height: 78vh;
+    border-radius: 15px;
+    width: 240px;
+    margin-right: 7rem;
+    padding: 1rem;
+    margin-bottom: 6rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgb(34, 50, 72);
+    box-shadow: 7px 7px 14px #333131, -7px -7px 14px #191919;
+}
+.smallertext{
+ letter-spacing: 1.5;
+ margin-bottom: 1rem;
+ font-size: 1rem;
+ font-weight: 100;
+}
+.textcasing{
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+.largertext{
+    line-height: 1.4;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+.download{
+        background-color:rgb(200, 192, 255);
+        border: none;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        outline: none;
+        cursor: pointer;
+        margin-right: 1rem;
+        width: 100px;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        padding: 0.3rem;
+        padding-right: 10px;
+        padding-left: 11px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+}
+.toptext{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    width: 105%;
+}
+.toptext .bell{
+    margin-top: 0.2rem;
+}
+.toptext p{
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+}
+.box{
+    width: 85%;
+    background-color: rgb(28, 20, 41);
+    height: 120px;
+    margin-top: 3rem;
+    border-radius: 5px;   
+    border-top-left-radius: 4px; 
+    position: relative;
+}
+.circle{
+    background-color: rgb(200, 192, 255);
+    width: 60px;
+    height: 30px;
+    border-radius: 0 0 100px 99px;
+    top: 0;
+    left: 69%;
+    position: relative;
+}
+.boxtext{
+    margin-left: 1rem;
+}
+.cardnumber{
+    font-size: 12px;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.balannce{
+    font-size: 13px;
+    font-weight: 600;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    left: 77%;
+    top: 32.9% ;
+    position: absolute;
+    background-color: rgb(200, 192, 255);
+    color:rgb(28, 20, 41);
+    width: 16%;
+    border-radius: 5px;
+    height: 120px;
+}
+.circle2{
+    background-color: rgb(28, 20, 41);
+    left: 70.6%;
+    border-top-left-radius: 3px;
+}
+.details{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details div{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(200, 192, 255);
+    color: rgb(28, 20, 41);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+
+}
+.detail1{
+    font-size: 12px;
+    font-weight: 900;
+}
+.detail1 .p1{
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.4rem;
+
+}
+.detail1 .p2{
+    margin-left: 0.4rem;
+    margin-top: 1.4rem;
+}
+.history{
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+.historybox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.historybox .div{
+    background-color: rgb(200, 192, 255);
+    padding: 2px;
+    border-radius: 5px;
+}
+.description{
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    font-size: 13px;
+    font-weight: 700;
+}
+.spent{
+    margin-top: 0.5rem;
+    font-size: 13px;
+     font-weight: 700;
+}
+.navigation{
+    width: 273px;
+    background-color: rgb(28, 20, 41);
+    height: 40px;
+    margin: auto;
+    bottom: -2%;
+    right: 20.55%;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation div{
+    margin-top: 0.4rem;
+}
+.nav3{
+    margin-right: 1rem;
+}
+.nav1{
+    margin-left: 1rem;
+}
+.navigation div:hover{
+    cursor: pointer;
+}
+.sidebarr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: navy;
+    height: 100vh;
+    width: 350px;
+    z-index: 999;
+    margin: 0;
+    display: none;
+}
+
+.sidebarr li {
+    width: 100%;
+}
+
+.sidebarr li a {
+    width: 90%;
+    display: block;
+}
+
+.menu {
+    display: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+@media (max-width:769px) {
+    body{
+        background-color: rgb(30, 29, 29);
+    }
+    .container{
+        background-color: rgb(30, 29, 29);
+    }
+    .navbar {
+        display: flex;
+        padding: auto;
+        /* margin: 1rem; */
+        justify-content: space-between;
+        margin: 0;
+    }
+    .navbar li{
+        display: none;
+    }
+    .sidebarr li{
+        display: flex;
+        padding: 1rem;
+        background-color: rgb(28, 20, 41);
+        color: rgb(200, 192, 255);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .sidebarr{
+        background-color: rgb(28, 20, 41);
+        width: 100%;
+    }
+    .navbar .buttons{
+        display: none;
+    }
+    .log{
+        margin-left: 0;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .showcase{
+        display: block;
+        margin-top: -3rem;
+    }
+    .download{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .box2 {
+        display: none;
+    }
+    .carddisplay{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+    .box {
+        width: 85%;
+        background-color: rgb(28, 20, 41);
+        height: 120px;
+        margin-top: 0;
+        border-radius: 5px;
+        border-top-left-radius: 4px;
+        position: relative;
+    }
+    .navigation{
+        position: relative;
+        margin-left: 2.1rem;
+        margin-top: 2rem;
+    }
+    .phonedisplay{
+        margin-bottom: 2rem;
+        height: 520px;
+    }
+    .cancel{
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
+
+
